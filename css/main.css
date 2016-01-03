@@ -1,6 +1,6 @@
 @font-face {
-    font-family: TypoSlabserif;
-    src: url("../fonts/TypoSlabserif-light.ttf");
+    font-family: Museo-Regular;
+    src: url("../fonts/Museo300-Regular.otf");
 }
 
 body{
@@ -20,8 +20,8 @@ body{
 }
 .navbarFont{
   font-size: 18px;
-  font-family: TypoSlabserif;
-  font-weight: 400;
+  font-family: Museo-Regular;
+  /*font-weight: 400;*/
 }
 #smallLogo {
     position: fixed;
@@ -36,6 +36,7 @@ body{
     background: transparent;
 }
 
+
 @media(min-width:992px){
   .navbar-nav>li {
     float: left;
@@ -43,6 +44,12 @@ body{
     padding-left: 13px;
     padding-top: 25px;
     font-size: 20px;
+  }
+  .navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    left: inherit;
   }
 }
 @media(min-width:768px){
