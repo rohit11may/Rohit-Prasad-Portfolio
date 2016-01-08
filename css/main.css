@@ -20,7 +20,7 @@ body{
 }
 .navbarFont{
   font-size: 18px;
-  font-family: Museo-Regular;
+  font-family: 'Cabin', sans-serif;
   /*font-weight: 400;*/
 }
 #smallLogo {
