@@ -8,73 +8,125 @@
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="http://doonnn.com/flexslider-original/flexslider.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+	<link rel="stylesheet" href="css/carousel.css">
+	<link href='https://fonts.googleapis.com/css?family=Cabin:400,500' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 	<!-- Start Navbar -->
-	<div class="container">
-	<nav>
-		<div class="navbar navbar-inverse navbar-default" style="position: fixed;">
-			<div class="navbarInnerLilac">
-				<div class="container">
-				  <div class="navbar-header">
-					<img id="smallLogo" src="img/Logo/logo.png" width="50" height="50" alt="Rohit Prasad" class="visible-xs" style="width:50px; height:50px;">
-				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				      <span class="sr-only">Toggle navigation</span>
-				      <span class="icon-bar"></span>
-				      <span class="icon-bar"></span>
-				      <span class="icon-bar"></span>
-				    </button>
-				  </div>
-				  <!-- Collect the nav links, forms, and other content for toggling -->
-				  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-left navbarFont">
-					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-					<li><a href="#">Projects</a></li>
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Python Dev <b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-					    <li><a href="#">Action</a></li>
-					    <li><a href="#">Another action</a></li>
-					    <li><a href="#">Something else here</a></li>
-					    <li class="divider"></li>
-					    <li><a href="#">Separated link</a></li>
-					  </ul>
-					</li>
-					</ul>
+	<div class="container-fluid">
+		<div class="col-xs-12">
+			<nav>
+				<div class="navbar navbar-inverse navbar-default" style="position: fixed;">
+					<div class="navbarInnerLilac">
+						  <div class="navbar-header" style="padding-bottom: 7px">
+							<img id="smallLogo" src="img/Logo/logo.png" width="50" height="50" alt="Rohit Prasad" class="visible-xs" style="width:50px; height:50px;">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						      <span class="sr-only">Toggle navigation</span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						    </button>
+						  </div>
+						  <!-- Collect the nav links, forms, and other content for toggling -->
+						  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-left navbarFont">
+							<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+							<li><a href="#">Projects</a></li>
+							<li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Python Dev <b class="caret"></b></a>
+							  <ul class="dropdown-menu">
+							    <li><a href="#">Action</a></li>
+							    <li><a href="#">Another action</a></li>
+							    <li><a href="#">Something else here</a></li>
+							    <li class="divider"></li>
+							    <li><a href="#">Separated link</a></li>
+							  </ul>
+							</li>
+							</ul>
 
 
 
-		            <div style="height:0px;width:130px;margin:0 auto; padding-left: 25px" class="visible-md visible-lg">
-					    <div>
-	                      <img src="img/Logo/logo.png" width="130" height="130" alt="Rohit Prasad" id="default-logo" style="display: inline-block; opacity: 1; height: 130px; width: 130px;">
-		                </div>
-		            </div>
-		       		   
-		           <div class="visible-sm">
-		           	<img id="smallLogo" src="img/Logo/logo.png" width="76" height="76" alt="Rohit Prasad" class="visble-sm" style="width:76px; height:76px; left:48.5%;">
-		           </div>
-		            <ul class="nav navbar-nav navbar-right navbarFont">
-			            <li><a href="#">Misc</a></li>
-			            <li><a href="#">About Me</a></li>
-			            <li><a href="#">Contact</a></li>
-		            </ul>
-				  </div><!-- /.navbar-collapse -->
+				            <div style="height:0px;width:130px;margin:0 auto; padding-left: 25px" class="visible-md visible-lg">
+							    <div>
+			                      <img src="img/Logo/logo.png" width="130" height="130" alt="Rohit Prasad" id="default-logo" style="display: inline-block; opacity: 1; height: 130px; width: 130px;">
+				                </div>
+				            </div>
+				       		   
+				           <div class="visible-sm">
+				           	<img id="smallLogo" src="img/Logo/logo.png" width="76" height="76" alt="Rohit Prasad" class="visble-sm" style="width:76px; height:76px; left:48.5%;">
+				           </div>
+				            <ul class="nav navbar-nav navbar-right navbarFont">
+					            <li><a href="#">Misc</a></li>
+					            <li><a href="#">About Me</a></li>
+					            <li><a href="#">Contact</a></li>
+				            </ul>
+						  </div><!-- /.navbar-collapse -->
+					</div>
 				</div>
-			</div>
+			</nav>
 		</div>
-	</nav>
-	</div>
+
 	<!-- End Navbar -->
 
 	<!-- start home carousel -->
-	
+		<div class="col-md-6">			
+			<a target="_blank" href="">
+			<section class="slider">
+			  <div class="flexslider">
+			    <ul class="slides">
+			      	 <li>
+			  	       <img src="http://doonnn.com/wp-content/uploads/2015/07/slide01.jpg" />
+			           <div class="flex-caption">
+			             <span class="date">Thursday, July 16, 2015</span>
+			             <h1>Adventurer Cheesecake Brownie</h1>
+			             <p>Eu solum mazim sit, elitr utroque at vim. An nam vide solet saepe, eam in erant equidem omittantur. Brute postulant ocurreret sed cu, id eum malis saperet argumentum, adhuc everti ad mei. Intellegat moderatius voluptatibus ad mei. Reque posse euripidis in eum, pro an semper gloriatur. Delectus interesset qui ea, omittam suavitate ei his, alii agam cotidieque vel ea.
+						</p>
+			           </div>
+			           <div class="card-outmore">
+			              <h5>Read more</h5>
+			              <i id="outmore-icon" class="fa fa-angle-right"></i>
+			           </div>
+			  	     </li>
+			  	     <li>
+				  	     <img src="http://doonnn.com/wp-content/uploads/2015/07/slide02.jpg" />
+				         <div class="flex-caption">
+				           <span class="date">Thursday, July 16, 2015</span>
+				           <h1>Lorem ipsum dolor sit amet at sed essent maiorum</h1>
+				           <p>Eu solum mazim sit, elitr utroque at vim. An nam vide solet saepe, eam in erant equidem omittantur. Brute postulant ocurreret sed cu, id eum malis saperet argumentum, adhuc everti ad mei. Intellegat moderatius voluptatibus ad mei. Reque posse euripidis in eum, pro an semper gloriatur.</p>
+				         </div>
+				         <div class="card-outmore">
+				              <h5>Read more</h5>
+				              <i id="outmore-icon" class="fa fa-angle-right"></i>
+				          </div>
+			  	     </li>
+			  	    <li>
+			  	     <img src="http://doonnn.com/wp-content/uploads/2015/07/slide03.jpg" />
+			         <div class="flex-caption">
+			           <span class="date">Thursday, July 16, 2015</span>
+			           <h1>Gubergren rationibus sea at etiam nostrud reprimique ne vim</h1>
+			           <p>Eu solum mazim sit, elitr utroque at vim. An nam vide solet saepe, eam in erant equidem omittantur. Brute postulant ocurreret sed cu, id eum malis saperet argumentum, adhuc everti ad mei. Intellegat moderatius voluptatibus ad mei.</p>
+			         </div>
+			         <div class="card-outmore">
+			              <h5>Read more</h5>
+			              <i id="outmore-icon" class="fa fa-angle-right"></i>
+			         </div>
+			  	    </li>
+			     </ul>
+			    </div>
+			 </section>
+			</a>
+		</div>
+	</div>
 	<!-- end home carousel -->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
-
+	<script src="js/carousel.js"></script>
+	<script src="http://doonnn.com/flexslider-original/jquery.flexslider.js"></script>
 </body>
 </html>
